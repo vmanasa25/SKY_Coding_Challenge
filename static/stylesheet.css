@@ -1,0 +1,71 @@
+.register_bg {
+    background-image : url("register_gradient.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.loginStyle{
+    padding-top: 40px;
+    color: #0539f7;
+    font-size: 23px;
+} 
+
+.usernameStyle {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 650;
+    font-size: 14px;
+    background: rgba(106, 106, 206, 0.04);
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(100, 100, 126, 0.01);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+} 
+
+.boxed_register {
+    border: 1px ;
+    border-radius: 30px;
+    opacity :1.0;
+    background : white;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 550;
+    top: 100;
+}
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #0539f7, #8aa3ff);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.displayStyle {
+    padding-top: 100px;
+    padding-left: 120px;
+    color: #0539f7;
+    font-size: 23px;
+}
+
+.msg{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 27px;
+}

@@ -1,0 +1,18 @@
+<!-- HTML template for displaying the details entered by user-->
+
+<html>
+    <head>
+        <title>Display Username</title>
+        <!-- link to stylesheet-->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">
+    </head>
+    <body class="register_bg">
+        <div class = "boxed_register">
+            <!-- form to display the name from backend python-->
+            <form action="/display/" method="GET">
+                <!-- uname- variable that has the name stored-->
+                <p class="displayStyle"> Hello {{ uname }} !</p>
+            </form>
+        </div>
+    </body>
+</html>

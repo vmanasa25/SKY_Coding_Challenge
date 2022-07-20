@@ -1,0 +1,22 @@
+<!--HTML Template for gathering details from users-->
+
+<html>
+    <head>
+        <title> Username </title> 
+        <!-- link to stylesheet-->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">
+    </head>
+    <body class="register_bg">
+        <div class="boxed_register">
+        <p class="loginStyle" align="center">NAME:</p> 
+        <!-- form from which user data is gathered in backend python-->
+        <form action="/get_name/" method="post">
+            <!--text box for user name -->
+            <input class="usernameStyle" type="text" name="username" align="center" placeholder="Enter your name"  minlength="2" maxlength="10" pattern="([^\s][A-zÀ-ž\s]+)" />
+            <div class="msg">{{ msg }}</div>
+            <!-- Submit button-->
+            <input class="submit" type="submit" value="Submit" class="submit" align="center"/>
+        </form>
+        </div>
+    </body>
+</html>
